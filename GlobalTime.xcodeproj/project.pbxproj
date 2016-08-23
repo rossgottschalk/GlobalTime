@@ -7,21 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B8D8E761D6B6E6D0030ED6D /* Clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8D8E751D6B6E6D0030ED6D /* Clock.swift */; };
+		5B8D8E781D6B6EBD0030ED6D /* CustomClockCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8D8E771D6B6EBD0030ED6D /* CustomClockCell.swift */; };
+		5B8D8E7A1D6B71D30030ED6D /* TimezoneTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8D8E791D6B71D30030ED6D /* TimezoneTableViewController.swift */; };
 		5BBB04F61D6B6D610036D0D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBB04F51D6B6D610036D0D5 /* AppDelegate.swift */; };
-		5BBB04F81D6B6D610036D0D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBB04F71D6B6D610036D0D5 /* ViewController.swift */; };
 		5BBB04FB1D6B6D610036D0D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BBB04F91D6B6D610036D0D5 /* Main.storyboard */; };
 		5BBB04FD1D6B6D610036D0D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BBB04FC1D6B6D610036D0D5 /* Assets.xcassets */; };
 		5BBB05001D6B6D610036D0D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BBB04FE1D6B6D610036D0D5 /* LaunchScreen.storyboard */; };
+		5BBB05081D6B6DB10036D0D5 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBB05071D6B6DB10036D0D5 /* MainTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B8D8E751D6B6E6D0030ED6D /* Clock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Clock.swift; sourceTree = "<group>"; };
+		5B8D8E771D6B6EBD0030ED6D /* CustomClockCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomClockCell.swift; sourceTree = "<group>"; };
+		5B8D8E791D6B71D30030ED6D /* TimezoneTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimezoneTableViewController.swift; sourceTree = "<group>"; };
 		5BBB04F21D6B6D610036D0D5 /* GlobalTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlobalTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BBB04F51D6B6D610036D0D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5BBB04F71D6B6D610036D0D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5BBB04FA1D6B6D610036D0D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5BBB04FC1D6B6D610036D0D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BBB04FF1D6B6D610036D0D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BBB05011D6B6D610036D0D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BBB05071D6B6DB10036D0D5 /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainTableViewController.swift; path = ../MainTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +61,10 @@
 			isa = PBXGroup;
 			children = (
 				5BBB04F51D6B6D610036D0D5 /* AppDelegate.swift */,
-				5BBB04F71D6B6D610036D0D5 /* ViewController.swift */,
+				5BBB05071D6B6DB10036D0D5 /* MainTableViewController.swift */,
+				5B8D8E791D6B71D30030ED6D /* TimezoneTableViewController.swift */,
+				5B8D8E771D6B6EBD0030ED6D /* CustomClockCell.swift */,
+				5B8D8E751D6B6E6D0030ED6D /* Clock.swift */,
 				5BBB04F91D6B6D610036D0D5 /* Main.storyboard */,
 				5BBB04FC1D6B6D610036D0D5 /* Assets.xcassets */,
 				5BBB04FE1D6B6D610036D0D5 /* LaunchScreen.storyboard */,
@@ -136,8 +145,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BBB04F81D6B6D610036D0D5 /* ViewController.swift in Sources */,
+				5B8D8E761D6B6E6D0030ED6D /* Clock.swift in Sources */,
+				5BBB05081D6B6DB10036D0D5 /* MainTableViewController.swift in Sources */,
 				5BBB04F61D6B6D610036D0D5 /* AppDelegate.swift in Sources */,
+				5B8D8E7A1D6B71D30030ED6D /* TimezoneTableViewController.swift in Sources */,
+				5B8D8E781D6B6EBD0030ED6D /* CustomClockCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +309,7 @@
 				5BBB05061D6B6D610036D0D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
